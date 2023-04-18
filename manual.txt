@@ -1,0 +1,5 @@
+  » To print these instructions again, run: stream-adventure print              
+   » To execute your program in a test environment, run: stream-adventure                                                                            
+     run program.js                                                              
+   » To verify your program, run: stream-adventure verify program.js             
+   » For help run: stream-adventure help   
