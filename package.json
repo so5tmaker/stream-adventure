@@ -1,0 +1,20 @@
+{
+  "name": "stream-adventure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.beep_boop.js",
+  "scripts": {
+    "start": "node 4.read_it.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/so5tmaker/stream-adventure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/so5tmaker/stream-adventure/issues"
+  },
+  "homepage": "https://github.com/so5tmaker/stream-adventure#readme"
+}

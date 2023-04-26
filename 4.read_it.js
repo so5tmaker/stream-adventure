@@ -70,17 +70,16 @@
 //    » stream reading modes:                                                                            
 //      (https://nodejs.org/api/stream.html#stream_two_reading_modes)           
 
-
 const { Readable } = require('stream')
 
-class MyStream extends Readable {
-    _read() { this.push(process.argv[2]); }
-}
 
-const stream = new MyStream;
-console.log(stream.pipe(process.stdout));
+const stream = new Readable({})
+stream._read = () => { }
+// class ReadableStream extends Readable {
+//     _read() {
+//     }
+// }
 
-
-// const myStream = new Readable({})
-// myStream._read = () => { myStream.push(process.argv[2]); }
-// console.log(myStream.pipe(process.stdout));
+// const stream = new ReadableStream()
+stream.push(process.argv[2])
+stream.pipe(process.stdout)
