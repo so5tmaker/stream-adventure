@@ -61,7 +61,10 @@
 const { Writable } = require('stream')
 
 const writable = new Writable({
-    write(chunk, encoding, callback) { console.log(`writing: ${chunk}`); callback(); }
+    write(chunk, encoding, callback) {
+        console.log(`writing: ${chunk}`);
+        callback();
+    }
 })
 
 process.stdin.pipe(writable);
