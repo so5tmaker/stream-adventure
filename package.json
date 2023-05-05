@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/so5tmaker/stream-adventure/issues"
   },
-  "homepage": "https://github.com/so5tmaker/stream-adventure#readme"
+  "homepage": "https://github.com/so5tmaker/stream-adventure#readme",
+  "dependencies": {
+    "through2": "^4.0.2"
+  }
 }
