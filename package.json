@@ -4,7 +4,7 @@
   "description": "",
   "main": "1.beep_boop.js",
   "scripts": {
-    "start": "stream-adventure run 7.lines.js"
+    "start": "stream-adventure run 10.http_client.js"
   },
   "repository": {
     "type": "git",
